@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:tooldataform.pmoo="http:///tooldataform/pmoo.ecore" xmlns:tooldataform.ui="http:///tooldataform/ui.ecore" xsi:schemaLocation="http:///tooldataform/pmoo.ecore http:///tooldataform.ecore#//pmoo http:///tooldataform/ui.ecore http:///tooldataform.ecore#//ui">
+  <tooldataform.ui:UI_Diagram xmi:id="_Sdck1upcEeyaXbtNDsrFuw" name="ViewPart: FormularioEntregaa">
+    <theUserInterface xmi:type="tooldataform.ui:UserInterface" xmi:id="_Sdck1-pcEeyaXbtNDsrFuw" name="FormularioEntregaa" nameVar="FormularioEntregaa" type="View Modal" font="Segoe UI" width="451" height="369" positionX="0" positionY="0" idWidget="_Sdck0OpcEeyaXbtNDsrFuw" textColor="0" textSize="9" textStyle="false">
+      <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_Sdck2OpcEeyaXbtNDsrFuw" name="viewPartLoadedAction" id="_Sdck0epcEeyaXbtNDsrFuw" typeElement="Operation" urlIcon="" visible="true"/>
+      <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_Sdck2epcEeyaXbtNDsrFuw" name="constructorNameViewPart" id="_Sdck0upcEeyaXbtNDsrFuw" typeElement="Operation" urlIcon="" visible="true"/>
+      <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_Sdck2upcEeyaXbtNDsrFuw" name="reboot" id="_Sdck0-pcEeyaXbtNDsrFuw" typeElement="Operation" urlIcon="" visible="true"/>
+      <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_Sdck2-pcEeyaXbtNDsrFuw" name="syncModel" id="_Sdck1OpcEeyaXbtNDsrFuw" typeElement="Operation" urlIcon="" visible="true"/>
+      <listIndividualWidge xmi:type="tooldataform.ui:TextComponent" xmi:id="_UcoOUOpcEeyaXbtNDsrFuw" pathImage="9:31:17" font="Segoe UI" width="120" height="20" positionX="67" positionY="25" idAndroid="ModifyText#" idWidget="_UcoOUepcEeyaXbtNDsrFuw" textColor="0" textSize="9" textStyle="false">
+        <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_UcoOU-pcEeyaXbtNDsrFuw" name="textName_ModifyText_LogicalEvent" id="_UcoOUupcEeyaXbtNDsrFuw" visible="true" returnTypeMethod="void">
+          <listParametros xmi:type="tooldataform.pmoo:Atributo" xmi:id="_UcoOVOpcEeyaXbtNDsrFuw" name="event" type="String"/>
+        </listModelElementCore>
+      </listIndividualWidge>
+    </theUserInterface>
+  </tooldataform.ui:UI_Diagram>
+  <notation:Diagram xmi:id="_SeQdIOpcEeyaXbtNDsrFuw" type="MetamodelodataformUIdiagram" element="_Sdck1upcEeyaXbtNDsrFuw" name="ViewPart: FormularioEntregaa" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_SlMyoOpcEeyaXbtNDsrFuw" type="2001" element="_Sdck1-pcEeyaXbtNDsrFuw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_SlNZtOpcEeyaXbtNDsrFuw" type="5028"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_SlNZtepcEeyaXbtNDsrFuw" type="7001">
+        <children xmi:type="notation:Node" xmi:id="_Uco1YOpcEeyaXbtNDsrFuw" type="3023" element="_UcoOUOpcEeyaXbtNDsrFuw">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Uco1ZepcEeyaXbtNDsrFuw" type="5020"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uco1YepcEeyaXbtNDsrFuw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Uco1YupcEeyaXbtNDsrFuw" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_Uco1Y-pcEeyaXbtNDsrFuw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uco1ZOpcEeyaXbtNDsrFuw" x="67" y="25"/>
+        </children>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_SlNZsOpcEeyaXbtNDsrFuw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_SlNZsepcEeyaXbtNDsrFuw" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_SlNZsupcEeyaXbtNDsrFuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SlNZs-pcEeyaXbtNDsrFuw" width="451" height="369"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_SeQdIepcEeyaXbtNDsrFuw"/>
+  </notation:Diagram>
+</xmi:XMI>

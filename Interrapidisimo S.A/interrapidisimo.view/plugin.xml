@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+       <extension
+             point="org.eclipse.ui.actionSets">
+         <actionSet
+               label="Update View"
+               visible="true"
+               id="test.update.actionSet">
+            <menu
+                 label="Sample &amp;Menu"
+                 id="sampleMenu">
+              <separator
+                    name="sampleGroup">
+              </separator>
+            </menu>
+            <action
+                      label="Reboot"
+                      icon="button.png"
+                      class="interrapidisimo.view.update.actions.RebootAction"
+                      tooltip="Reboot View"
+                      menubarPath="sampleMenu/sampleGroup"
+                      toolbarPath="sampleGroup"
+                      id="test.update.actions.SampleAction">
+            </action>
+            <action
+                      label="UpdateData"
+                      icon="button.png"
+                      class="interrapidisimo.view.update.actions.UpdateAction"
+                      tooltip="Update View"
+                      menubarPath="sampleMenu/sampleGroup"
+                      toolbarPath="sampleGroup"
+                      id="test.update.actions.SampleAction">
+            </action>
+          </actionSet>
+       </extension>
+</plugin>

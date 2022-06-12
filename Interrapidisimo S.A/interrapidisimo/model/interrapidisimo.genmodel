@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/interrapidisimo/src" modelPluginID="interrapidisimo" modelName="Model" complianceLevel="6.0" copyrightFields="false" editPluginID="interrapidisimo.edit" editorPluginID="interrapidisimo.editor">
+  <foreignModel>interrapidisimo.ecore</foreignModel>
+  <genPackages prefix="interrapidisimo" disposableProviderFactory="true">
+    <ecorePackage href="interrapidisimo.ecore#/"/>
+    <genDataTypes>
+      <ecoreDataType href="interrapidisimo.ecore#//String"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="interrapidisimo.ecore#//EBooleanObject"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="interrapidisimo.ecore#//EDoubleObject"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="interrapidisimo.ecore#//EIntegerObject"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="interrapidisimo.ecore#//EList"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="interrapidisimo.ecore#//EChar"/>
+    </genDataTypes>
+    <genDataTypes>
+      <ecoreDataType href="interrapidisimo.ecore#//ArrayList"/>
+    </genDataTypes>
+    <genClasses>
+      <ecoreClass href="interrapidisimo.ecore#//ModelFactory"/>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//ModelFactory/theDomain"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//ModelFactory/theUI"/>
+      </genFeatures>
+      <genOperations>
+        <ecoreOperation href="interrapidisimo.ecore#//ModelFactory/cargar"/>
+        <genParameters>
+          <ecoreParameter href="interrapidisimo.ecore#//ModelFactory/cargar/ruta"/>
+        </genParameters>
+      </genOperations>
+      <genOperations>
+        <ecoreOperation href="interrapidisimo.ecore#//ModelFactory/salvar"/>
+        <genParameters>
+          <ecoreParameter href="interrapidisimo.ecore#//ModelFactory/salvar/ruta"/>
+        </genParameters>
+      </genOperations>
+      <genOperations>
+        <ecoreOperation href="interrapidisimo.ecore#//ModelFactory/implementarModelo"/>
+      </genOperations>
+    </genClasses>
+    <nestedGenPackages prefix="Domain" disposableProviderFactory="true">
+      <ecorePackage href="interrapidisimo.ecore#//domain"/>
+      <genClasses>
+        <ecoreClass href="interrapidisimo.ecore#//domain/Cliente"/>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Cliente/nombre"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Cliente/iD"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Cliente/edad"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Cliente/telefono"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Cliente/direccion"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Cliente/email"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Cliente/tipoCliente"/>
+        </genFeatures>
+        <genFeatures property="None" notify="false" createChild="false">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/Cliente/lstFactoryGestionHumana"/>
+        </genFeatures>
+      </genClasses>
+      <genClasses>
+        <ecoreClass href="interrapidisimo.ecore#//domain/Domain"/>
+        <genFeatures property="None" notify="false" createChild="false">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/Domain/theModelFactory"/>
+        </genFeatures>
+        <genFeatures property="None" children="true" createChild="true">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/Domain/ownedByFactoryBodega"/>
+        </genFeatures>
+        <genFeatures property="None" children="true" createChild="true">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/Domain/theFactoryGestionHumana"/>
+        </genFeatures>
+        <genFeatures property="None" children="true" createChild="true">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/Domain/lstFactoryPago"/>
+        </genFeatures>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/Domain/theUI"/>
+        </genFeatures>
+        <genOperations>
+          <ecoreOperation href="interrapidisimo.ecore#//domain/Domain/implementarModelo"/>
+        </genOperations>
+      </genClasses>
+      <genClasses>
+        <ecoreClass href="interrapidisimo.ecore#//domain/Empleado"/>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Empleado/nombre"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Empleado/iD"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Empleado/telefono"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Empleado/email"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Empleado/tipoEmpleado"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Empleado/estadoEmpleado"/>
+        </genFeatures>
+        <genFeatures property="None" notify="false" createChild="false">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/Empleado/lstFactoryGestionHumana"/>
+        </genFeatures>
+      </genClasses>
+      <genClasses>
+        <ecoreClass href="interrapidisimo.ecore#//domain/FactoryBodega"/>
+        <genFeatures property="None" notify="false" createChild="false">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/FactoryBodega/lstDomain"/>
+        </genFeatures>
+        <genFeatures property="None" children="true" createChild="true">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/FactoryBodega/lstGuia"/>
+        </genFeatures>
+        <genFeatures property="None" children="true" createChild="true">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/FactoryBodega/lstPaquete"/>
+        </genFeatures>
+      </genClasses>
+      <genClasses>
+        <ecoreClass href="interrapidisimo.ecore#//domain/FactoryGestionHumana"/>
+        <genFeatures property="None" children="true" createChild="true">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/FactoryGestionHumana/lstCliente"/>
+        </genFeatures>
+        <genFeatures property="None" children="true" createChild="true">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/FactoryGestionHumana/lstEmpleado"/>
+        </genFeatures>
+        <genFeatures property="None" notify="false" createChild="false">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/FactoryGestionHumana/ownedByDomain"/>
+        </genFeatures>
+        <genFeatures property="None" children="true" createChild="true">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/FactoryGestionHumana/lstTransportador"/>
+        </genFeatures>
+      </genClasses>
+      <genClasses>
+        <ecoreClass href="interrapidisimo.ecore#//domain/FactoryPago"/>
+        <genFeatures property="None" notify="false" createChild="false">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/FactoryPago/ownedByDomain"/>
+        </genFeatures>
+        <genFeatures property="None" children="true" createChild="true">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/FactoryPago/lstFactura"/>
+        </genFeatures>
+      </genClasses>
+      <genClasses>
+        <ecoreClass href="interrapidisimo.ecore#//domain/Factura"/>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Factura/tipoPago"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Factura/costo"/>
+        </genFeatures>
+        <genFeatures property="None" notify="false" createChild="false">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/Factura/lstFactoryPago"/>
+        </genFeatures>
+      </genClasses>
+      <genClasses>
+        <ecoreClass href="interrapidisimo.ecore#//domain/Guia"/>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Guia/destinatario"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Guia/direccion"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Guia/estado"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Guia/fechaEstimada"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Guia/iD"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Guia/remitente"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Guia/tipoEntrega"/>
+        </genFeatures>
+        <genFeatures property="None" notify="false" createChild="false">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/Guia/lstFactoryBodega"/>
+        </genFeatures>
+      </genClasses>
+      <genClasses>
+        <ecoreClass href="interrapidisimo.ecore#//domain/Paquete"/>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Paquete/medidas"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Paquete/estado"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Paquete/peso"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Paquete/fecha"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Paquete/descripcion"/>
+        </genFeatures>
+        <genFeatures property="None" notify="false" createChild="false">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/Paquete/lstFactoryBodega"/>
+        </genFeatures>
+      </genClasses>
+      <genClasses>
+        <ecoreClass href="interrapidisimo.ecore#//domain/Transportador"/>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Transportador/nombre"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Transportador/iD"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Transportador/telefono"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Transportador/email"/>
+        </genFeatures>
+        <genFeatures createChild="false">
+          <ecoreFeature xsi:type="ecore:EAttribute" href="interrapidisimo.ecore#//domain/Transportador/estadoEmpleado"/>
+        </genFeatures>
+        <genFeatures property="None" notify="false" createChild="false">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//domain/Transportador/lstFactoryGestionHumana"/>
+        </genFeatures>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Ui" disposableProviderFactory="true">
+      <ecorePackage href="interrapidisimo.ecore#//ui"/>
+      <genClasses>
+        <ecoreClass href="interrapidisimo.ecore#//ui/UI"/>
+        <genFeatures property="None" notify="false" createChild="false">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//ui/UI/theModelFactory"/>
+        </genFeatures>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true">
+          <ecoreFeature xsi:type="ecore:EReference" href="interrapidisimo.ecore#//ui/UI/theDomain"/>
+        </genFeatures>
+        <genOperations>
+          <ecoreOperation href="interrapidisimo.ecore#//ui/UI/implementarModelo"/>
+        </genOperations>
+      </genClasses>
+      <nestedGenPackages prefix="Viewmodels" disposableProviderFactory="true">
+        <ecorePackage href="interrapidisimo.ecore#//ui/viewmodels"/>
+      </nestedGenPackages>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

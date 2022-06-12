@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tooldataform.ui:UI_Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tooldataform.pmoo="http:///tooldataform/pmoo.ecore" xmlns:tooldataform.ui="http:///tooldataform/ui.ecore" xsi:schemaLocation="http:///tooldataform/pmoo.ecore http:///tooldataform.ecore#//pmoo http:///tooldataform/ui.ecore http:///tooldataform.ecore#//ui" xmi:id="_B1tlQOpWEeyaXbtNDsrFuw" name="ViewPart: FormularioEnvio">
+  <theUserInterface xmi:type="tooldataform.ui:UserInterface" xmi:id="_B1tlQepWEeyaXbtNDsrFuw" nameVar="FormularioEnvio" type="View Modal" width="200" height="300" positionX="0" positionY="0" idWidget="_B1sXIOpWEeyaXbtNDsrFuw">
+    <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_B1tlQupWEeyaXbtNDsrFuw" name="viewPartLoadedAction" id="_B1sXIepWEeyaXbtNDsrFuw" typeElement="Operation" urlIcon="" visible="true"/>
+    <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_B1tlQ-pWEeyaXbtNDsrFuw" name="constructorNameViewPart" id="_B1sXIupWEeyaXbtNDsrFuw" typeElement="Operation" urlIcon="" visible="true"/>
+    <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_B1tlROpWEeyaXbtNDsrFuw" name="reboot" id="_B1sXI-pWEeyaXbtNDsrFuw" typeElement="Operation" urlIcon="" visible="true"/>
+    <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_B1tlRepWEeyaXbtNDsrFuw" name="syncModel" id="_B1sXJOpWEeyaXbtNDsrFuw" typeElement="Operation" urlIcon="" visible="true"/>
+  </theUserInterface>
+</tooldataform.ui:UI_Diagram>

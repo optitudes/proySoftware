@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:tooldataform.core="http:///tooldataform/core.ecore" xmlns:tooldataform.pmoo="http:///tooldataform/pmoo.ecore" xsi:schemaLocation="http:///tooldataform/core.ecore http:///tooldataform.ecore#//core http:///tooldataform/pmoo.ecore http:///tooldataform.ecore#//pmoo">
+  <tooldataform.core:Datos_Diagram xmi:id="_R5OHgOgZEeyaBbdoE5pzeA">
+    <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_dQQ4QOgZEeyaBbdoE5pzeA" name="FactoryBodega" id="_t8CugOgYEeyaBbdoE5pzeA" type="System" pathElementRoot="interrapidisimo.domain" typeElement="Class" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Clase.gif" nameSpace="" nameSpaceElement=""/>
+    <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_eKLi0OgZEeyaBbdoE5pzeA" name="Paquete" id="_eKMw8OgZEeyaBbdoE5pzeA" description="" pathElementRoot="interrapidisimo.domain" nombreArchivo="" listaAtributosBinding="_kP0EUOgZEeyaBbdoE5pzeA _lIG-QOgZEeyaBbdoE5pzeA _mQIWQOgZEeyaBbdoE5pzeA _nYd3UOgZEeyaBbdoE5pzeA _orKOQOgZEeyaBbdoE5pzeA">
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_kP0EUOgZEeyaBbdoE5pzeA" name="medidas" id="_kP0rYOgZEeyaBbdoE5pzeA" type="String" typeElement="Attribute" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Atributo.gif" valueDefault="" namePresentation="medidas:String" Clase="_eKLi0OgZEeyaBbdoE5pzeA"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_lIG-QOgZEeyaBbdoE5pzeA" name="estado" id="_lIHlUOgZEeyaBbdoE5pzeA" type="String" typeElement="Attribute" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Atributo.gif" valueDefault="" namePresentation="estado:String" Clase="_eKLi0OgZEeyaBbdoE5pzeA"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_mQIWQOgZEeyaBbdoE5pzeA" name="peso" id="_mQIWQegZEeyaBbdoE5pzeA" type="String" typeElement="Attribute" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Atributo.gif" valueDefault="" namePresentation="peso:String" Clase="_eKLi0OgZEeyaBbdoE5pzeA"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_nYd3UOgZEeyaBbdoE5pzeA" name="fecha" id="_nYd3UegZEeyaBbdoE5pzeA" type="String" typeElement="Attribute" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Atributo.gif" valueDefault="" namePresentation="fecha:String" Clase="_eKLi0OgZEeyaBbdoE5pzeA"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_orKOQOgZEeyaBbdoE5pzeA" name="descripcion" id="_orKOQegZEeyaBbdoE5pzeA" type="String" typeElement="Attribute" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Atributo.gif" valueDefault="" namePresentation="descripcion:String" Clase="_eKLi0OgZEeyaBbdoE5pzeA"/>
+    </listClase>
+    <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_gQOpUOgZEeyaBbdoE5pzeA" name="Guia" id="_gQP3cOgZEeyaBbdoE5pzeA" description="" pathElementRoot="interrapidisimo.domain" nombreArchivo="" listaAtributosBinding="_rX46QOgZEeyaBbdoE5pzeA _tukdwOgZEeyaBbdoE5pzeA _vA5BQOgZEeyaBbdoE5pzeA _xVW-QOgZEeyaBbdoE5pzeA _yYWFQOgZEeyaBbdoE5pzeA _0TyeQOgZEeyaBbdoE5pzeA _vTND0OgaEeyaBbdoE5pzeA">
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_rX46QOgZEeyaBbdoE5pzeA" name="iD" id="_rX46QegZEeyaBbdoE5pzeA" type="String" typeElement="Attribute" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Atributo.gif" valueDefault="" namePresentation="iD:String" Clase="_gQOpUOgZEeyaBbdoE5pzeA"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_tukdwOgZEeyaBbdoE5pzeA" name="fechaEstimada" id="_tukdwegZEeyaBbdoE5pzeA" type="String" typeElement="Attribute" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Atributo.gif" valueDefault="" namePresentation="fechaEstimada:String" Clase="_gQOpUOgZEeyaBbdoE5pzeA"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_vA5BQOgZEeyaBbdoE5pzeA" name="estado" id="_vA5BQegZEeyaBbdoE5pzeA" type="String" typeElement="Attribute" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Atributo.gif" valueDefault="" namePresentation="estado:String" Clase="_gQOpUOgZEeyaBbdoE5pzeA"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_xVW-QOgZEeyaBbdoE5pzeA" name="destinatario" id="_xVW-QegZEeyaBbdoE5pzeA" type="String" typeElement="Attribute" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Atributo.gif" valueDefault="" namePresentation="destinatario:String" Clase="_gQOpUOgZEeyaBbdoE5pzeA"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_yYWFQOgZEeyaBbdoE5pzeA" name="tipoEntrega" id="_yYWFQegZEeyaBbdoE5pzeA" type="String" typeElement="Attribute" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Atributo.gif" valueDefault="" namePresentation="tipoEntrega:String" Clase="_gQOpUOgZEeyaBbdoE5pzeA"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_0TyeQOgZEeyaBbdoE5pzeA" name="remitente" id="_0TzFUOgZEeyaBbdoE5pzeA" type="String" typeElement="Attribute" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Atributo.gif" valueDefault="" namePresentation="remitente:String" Clase="_gQOpUOgZEeyaBbdoE5pzeA"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_vTND0OgaEeyaBbdoE5pzeA" name="direccion" id="_vTNq4OgaEeyaBbdoE5pzeA" type="String" typeElement="Attribute" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Atributo.gif" valueDefault="" namePresentation="direccion:String" Clase="_gQOpUOgZEeyaBbdoE5pzeA"/>
+      <listaAtributos xmi:type="tooldataform.pmoo:Atributo" xmi:id="_Uzj2sOpTEeyaXbtNDsrFuw" name="numeroReferencia" id="_UwoegOpTEeyaXbtNDsrFuw" type="String" valueDefault="" namePresentation="numeroReferencia:String"/>
+    </listClase>
+    <listRelacion_Data xmi:type="tooldataform.pmoo:Relacion_Data" xmi:id="_5md40OgZEeyaBbdoE5pzeA" name="lstFactoryBodega(FactoryBodega)" id="_5mfG8OgZEeyaBbdoE5pzeA" aRol="lstPaquete" bRol="lstFactoryBodega" bMultiplicidad="_1" multiplicidadB=" " multiplicidadA="*" aContainment="si" source="_eKLi0OgZEeyaBbdoE5pzeA" target="_dQQ4QOgZEeyaBbdoE5pzeA"/>
+    <listRelacion_Data xmi:type="tooldataform.pmoo:Relacion_Data" xmi:id="_-IPa4OgZEeyaBbdoE5pzeA" name="lstFactoryBodega(FactoryBodega)" id="_-IQpAOgZEeyaBbdoE5pzeA" aRol="lstGuia" bRol="lstFactoryBodega" bMultiplicidad="_1" multiplicidadB=" " multiplicidadA="*" aContainment="si" source="_gQOpUOgZEeyaBbdoE5pzeA" target="_dQQ4QOgZEeyaBbdoE5pzeA"/>
+  </tooldataform.core:Datos_Diagram>
+  <notation:Diagram xmi:id="_R6YlIOgZEeyaBbdoE5pzeA" type="MetamodelodataformDatosDiagram" element="_R5OHgOgZEeyaBbdoE5pzeA" name="newDiagram1" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_dQWX0OgZEeyaBbdoE5pzeA" type="2002" element="_dQQ4QOgZEeyaBbdoE5pzeA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_dQW-4OgZEeyaBbdoE5pzeA" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dQW-4egZEeyaBbdoE5pzeA" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_dQW-4ugZEeyaBbdoE5pzeA" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_dQW-4-gZEeyaBbdoE5pzeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_dQW-5OgZEeyaBbdoE5pzeA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_dQW-5egZEeyaBbdoE5pzeA" type="7002">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_dQW-5ugZEeyaBbdoE5pzeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_dQW-5-gZEeyaBbdoE5pzeA"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_dQWX0egZEeyaBbdoE5pzeA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_dQWX0ugZEeyaBbdoE5pzeA" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_dQWX0-gZEeyaBbdoE5pzeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dQWX1OgZEeyaBbdoE5pzeA" x="390" y="55"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eLg_kOgZEeyaBbdoE5pzeA" type="2002" element="_eKLi0OgZEeyaBbdoE5pzeA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_eLhmoOgZEeyaBbdoE5pzeA" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_eLhmoegZEeyaBbdoE5pzeA" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_eLhmougZEeyaBbdoE5pzeA" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_eLhmo-gZEeyaBbdoE5pzeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_eLhmpOgZEeyaBbdoE5pzeA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_eLhmpegZEeyaBbdoE5pzeA" type="7002">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_eLhmpugZEeyaBbdoE5pzeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_eLhmp-gZEeyaBbdoE5pzeA"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_eLg_kegZEeyaBbdoE5pzeA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_eLg_kugZEeyaBbdoE5pzeA" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_eLg_k-gZEeyaBbdoE5pzeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eLg_lOgZEeyaBbdoE5pzeA" x="185" y="200" width="193" height="151"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_gROH0OgZEeyaBbdoE5pzeA" type="2002" element="_gQOpUOgZEeyaBbdoE5pzeA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_gROu4OgZEeyaBbdoE5pzeA" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_gROu4egZEeyaBbdoE5pzeA" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_gROu4ugZEeyaBbdoE5pzeA" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_gROu4-gZEeyaBbdoE5pzeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_gROu5OgZEeyaBbdoE5pzeA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_gRPV8OgZEeyaBbdoE5pzeA" type="7002">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_gRPV8egZEeyaBbdoE5pzeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_gRPV8ugZEeyaBbdoE5pzeA"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_gROH0egZEeyaBbdoE5pzeA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_gROH0ugZEeyaBbdoE5pzeA" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_gROH0-gZEeyaBbdoE5pzeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gROH1OgZEeyaBbdoE5pzeA" x="530" y="205" width="178" height="158"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_R6YlIegZEeyaBbdoE5pzeA"/>
+    <edges xmi:type="notation:Connector" xmi:id="_5mtwcOgZEeyaBbdoE5pzeA" type="4002" element="_5md40OgZEeyaBbdoE5pzeA" source="_eLg_kOgZEeyaBbdoE5pzeA" target="_dQWX0OgZEeyaBbdoE5pzeA" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5muXgOgZEeyaBbdoE5pzeA" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5muXgegZEeyaBbdoE5pzeA" x="-10" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5mu-kOgZEeyaBbdoE5pzeA" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5mu-kegZEeyaBbdoE5pzeA" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5mu-kugZEeyaBbdoE5pzeA" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5mu-k-gZEeyaBbdoE5pzeA" x="16" y="-12"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5mu-lOgZEeyaBbdoE5pzeA" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5mu-legZEeyaBbdoE5pzeA" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_5mtwcegZEeyaBbdoE5pzeA" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5mtwcugZEeyaBbdoE5pzeA" points="[15, -15, -129, 127]$[121, -156, -23, -14]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5m0eIOgZEeyaBbdoE5pzeA" id="(0.4097560975609756,0.09933774834437085)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5m1FMOgZEeyaBbdoE5pzeA" id="(0.19166666666666668,0.225)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_-JNrQOgZEeyaBbdoE5pzeA" type="4002" element="_-IPa4OgZEeyaBbdoE5pzeA" source="_gROH0OgZEeyaBbdoE5pzeA" target="_dQWX0OgZEeyaBbdoE5pzeA" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-JOSUOgZEeyaBbdoE5pzeA" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-JOSUegZEeyaBbdoE5pzeA" x="-10" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-JOSUugZEeyaBbdoE5pzeA" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-JOSU-gZEeyaBbdoE5pzeA" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-JOSVOgZEeyaBbdoE5pzeA" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-JOSVegZEeyaBbdoE5pzeA" x="16" y="-12"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-JOSVugZEeyaBbdoE5pzeA" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-JOSV-gZEeyaBbdoE5pzeA" y="10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_-JNrQegZEeyaBbdoE5pzeA" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-JNrQugZEeyaBbdoE5pzeA" points="[-5, -5, 115, 131]$[-102, -145, 18, -9]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-JVAAOgZEeyaBbdoE5pzeA" id="(0.43157894736842106,0.03164556962025317)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-JVnEOgZEeyaBbdoE5pzeA" id="(0.85,0.2375)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

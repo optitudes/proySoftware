@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated interrapidisimo -->
+      <package
+            uri="http:///interrapidisimo.ecore"
+            class="interrapidisimo.interrapidisimoPackage"
+            genModel="model/interrapidisimo.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated interrapidisimo -->
+      <package
+            uri="http:///interrapidisimo/domain.ecore"
+            class="interrapidisimo.domain.DomainPackage"
+            genModel="model/interrapidisimo.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated interrapidisimo -->
+      <package
+            uri="http:///interrapidisimo/ui.ecore"
+            class="interrapidisimo.ui.UiPackage"
+            genModel="model/interrapidisimo.genmodel"/>
+   </extension>
+</plugin>

@@ -1,0 +1,21 @@
+#Sun Jun 12 09:07:48 COT 2022
+rulergrid.snaptogeometry=true
+viewport.x=-32
+zoom=1.0
+print.margin.right=0.5
+rulergrid.rulerunit=1
+rulergrid.snaptogrid=true
+print.page.size=A4
+print.margin.left=0.5
+print.page.width=8.26771654
+rulergrid.gridspacing=0.05
+print.page.height=11.6929134
+rulergrid.gridlinecolor=12632256
+print.margin.bottom=0.5
+rulergrid.gridlinestyle=6
+rulergrid.gridlevel=true
+print.margin.top=0.5
+print.useMillim=true
+rulergrid.viewrulers=true
+print.usePortrait=true
+viewport.y=-36

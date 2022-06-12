@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tooldataform.ui:UI_Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tooldataform.pmoo="http:///tooldataform/pmoo.ecore" xmlns:tooldataform.ui="http:///tooldataform/ui.ecore" xsi:schemaLocation="http:///tooldataform/pmoo.ecore http:///tooldataform.ecore#//pmoo http:///tooldataform/ui.ecore http:///tooldataform.ecore#//ui" xmi:id="_oSISwOpUEeyaXbtNDsrFuw" name="ViewPart: FormularioConsulta">
+  <theUserInterface xmi:type="tooldataform.ui:UserInterface" xmi:id="_oSISwepUEeyaXbtNDsrFuw" nameVar="FormularioConsulta" type="View Modal" width="200" height="300" positionX="0" positionY="0" idWidget="_oSGdkOpUEeyaXbtNDsrFuw">
+    <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_oSISwupUEeyaXbtNDsrFuw" name="viewPartLoadedAction" id="_oSGdkepUEeyaXbtNDsrFuw" typeElement="Operation" urlIcon="" visible="true"/>
+    <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_oSISw-pUEeyaXbtNDsrFuw" name="constructorNameViewPart" id="_oSGdkupUEeyaXbtNDsrFuw" typeElement="Operation" urlIcon="" visible="true"/>
+    <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_oSISxOpUEeyaXbtNDsrFuw" name="reboot" id="_oSGdk-pUEeyaXbtNDsrFuw" typeElement="Operation" urlIcon="" visible="true"/>
+    <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_oSISxepUEeyaXbtNDsrFuw" name="syncModel" id="_oSGdlOpUEeyaXbtNDsrFuw" typeElement="Operation" urlIcon="" visible="true"/>
+  </theUserInterface>
+</tooldataform.ui:UI_Diagram>

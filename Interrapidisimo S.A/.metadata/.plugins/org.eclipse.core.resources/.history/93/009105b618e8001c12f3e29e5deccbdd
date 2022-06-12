@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:tooldataform.core="http:///tooldataform/core.ecore" xmlns:tooldataform.pmoo="http:///tooldataform/pmoo.ecore" xsi:schemaLocation="http:///tooldataform/core.ecore http:///tooldataform.ecore#//core http:///tooldataform/pmoo.ecore http:///tooldataform.ecore#//pmoo">
+  <tooldataform.core:Datos_Diagram xmi:id="_gPe4wYRxEemeoZLzaonNpw">
+    <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_gpAMAIRxEemeoZLzaonNpw" name="Domain" id="_t31tgBc7EeiSj8tKu3ogxw" nameSpace="" nameSpaceElement="">
+      <listaMetodos xmi:type="tooldataform.pmoo:Metodo" xmi:id="_dYUjEGsbEeqv98S2YDhvpQ" name="implementarModelo" id="_dXeOgGsbEeqv98S2YDhvpQ" description="" body="void"/>
+    </listClase>
+  </tooldataform.core:Datos_Diagram>
+  <notation:Diagram xmi:id="_gPijIIRxEemeoZLzaonNpw" type="MetamodelodataformDatosDiagram" element="_gPe4wYRxEemeoZLzaonNpw" name="Main" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_gpCBMIRxEemeoZLzaonNpw" type="2002" element="_gpAMAIRxEemeoZLzaonNpw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_gpCBNYRxEemeoZLzaonNpw" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_gpCoQIRxEemeoZLzaonNpw" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_gpCoQYRxEemeoZLzaonNpw" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_gpCoQoRxEemeoZLzaonNpw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_gpCoQ4RxEemeoZLzaonNpw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_gpCoRIRxEemeoZLzaonNpw" type="7002">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_gpCoRYRxEemeoZLzaonNpw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_gpCoRoRxEemeoZLzaonNpw"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_gpCBMYRxEemeoZLzaonNpw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_gpCBMoRxEemeoZLzaonNpw" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_gpCBM4RxEemeoZLzaonNpw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gpCBNIRxEemeoZLzaonNpw" x="230" y="110"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_gPijIYRxEemeoZLzaonNpw"/>
+  </notation:Diagram>
+</xmi:XMI>

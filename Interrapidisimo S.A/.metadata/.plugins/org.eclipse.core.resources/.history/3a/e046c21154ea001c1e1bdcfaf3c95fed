@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:tooldataform.pmoo="http:///tooldataform/pmoo.ecore" xmlns:tooldataform.ui="http:///tooldataform/ui.ecore" xsi:schemaLocation="http:///tooldataform/pmoo.ecore http:///tooldataform.ecore#//pmoo http:///tooldataform/ui.ecore http:///tooldataform.ecore#//ui">
+  <tooldataform.ui:UI_Diagram xmi:id="_qnu4UOjMEey2ToR2sUT6mg" name="ViewPart: FormularioEntrega">
+    <theUserInterface xmi:type="tooldataform.ui:UserInterface" xmi:id="_qnxUkOjMEey2ToR2sUT6mg" name="FormularioEntrega" nameVar="FormularioEntrega" type="View Modal" font="Segoe UI" width="411" height="457" positionX="0" positionY="0" idWidget="_qntDIOjMEey2ToR2sUT6mg" textColor="0" textSize="9" textStyle="false">
+      <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_qnxUkejMEey2ToR2sUT6mg" name="viewPartLoadedAction" id="_qntqMOjMEey2ToR2sUT6mg" typeElement="Operation" urlIcon="" visible="true"/>
+      <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_qnxUkujMEey2ToR2sUT6mg" name="constructorNameViewPart" id="_qntqMejMEey2ToR2sUT6mg" typeElement="Operation" urlIcon="" visible="true"/>
+      <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_qnxUk-jMEey2ToR2sUT6mg" name="reboot" id="_qntqMujMEey2ToR2sUT6mg" typeElement="Operation" urlIcon="" visible="true"/>
+      <listModelElementCore xmi:type="tooldataform.pmoo:Metodo" xmi:id="_qnxUlOjMEey2ToR2sUT6mg" name="syncModel" id="_qntqM-jMEey2ToR2sUT6mg" typeElement="Operation" urlIcon="" visible="true"/>
+      <listIndividualWidge xmi:type="tooldataform.ui:TextView" xmi:id="_GjAiMOpTEeyaXbtNDsrFuw" name="numeroReferencia" nameVar="Numero Referencia" font="Segoe UI" width="119" height="24" positionX="0" positionY="10" idWidget="_GjBJQOpTEeyaXbtNDsrFuw" textColor="0" textSize="9" textStyle="false"/>
+    </theUserInterface>
+  </tooldataform.ui:UI_Diagram>
+  <notation:Diagram xmi:id="_qoVVQOjMEey2ToR2sUT6mg" type="MetamodelodataformUIdiagram" element="_qnu4UOjMEey2ToR2sUT6mg" name="ViewPart: FormularioEntrega" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="__1I8AOpSEeyaXbtNDsrFuw" type="2001" element="_qnxUkOjMEey2ToR2sUT6mg">
+      <children xmi:type="notation:DecorationNode" xmi:id="__1PCoOpSEeyaXbtNDsrFuw" type="5028"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="__1Q30OpSEeyaXbtNDsrFuw" type="7001">
+        <children xmi:type="notation:Node" xmi:id="_GjEzoOpTEeyaXbtNDsrFuw" type="3024" element="_GjAiMOpTEeyaXbtNDsrFuw">
+          <children xmi:type="notation:DecorationNode" xmi:id="_GjEzpepTEeyaXbtNDsrFuw" type="5021"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_GjEzoepTEeyaXbtNDsrFuw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GjEzoupTEeyaXbtNDsrFuw" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_GjEzo-pTEeyaXbtNDsrFuw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjEzpOpTEeyaXbtNDsrFuw" y="10" width="119"/>
+        </children>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="__1JjEOpSEeyaXbtNDsrFuw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="__1JjEepSEeyaXbtNDsrFuw" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="__1JjEupSEeyaXbtNDsrFuw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__1JjE-pSEeyaXbtNDsrFuw" width="411" height="457"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_qoVVQejMEey2ToR2sUT6mg"/>
+  </notation:Diagram>
+</xmi:XMI>

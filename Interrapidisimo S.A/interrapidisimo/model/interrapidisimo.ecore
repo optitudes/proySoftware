@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="interrapidisimo" nsURI="http:///interrapidisimo.ecore" nsPrefix="interrapidisimo">
+  <eClassifiers xsi:type="ecore:EDataType" name="String" instanceClassName="java.lang.String"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EBooleanObject" instanceClassName="java.lang.Boolean"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EDoubleObject" instanceClassName="java.lang.Double"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EIntegerObject" instanceClassName="java.lang.Integer"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EList" instanceClassName="org.eclipse.emf.common.util.EList"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EChar" instanceClassName="char"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="ArrayList" instanceClassName="java.util.ArrayList"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ModelFactory">
+    <eOperations name="cargar" eType="#//ModelFactory">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="body" value="ModelFactory modelFactory = null;&#xA;org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI(&quot;platform:/resource/&quot;+ruta);&#xA;org.eclipse.emf.ecore.resource.ResourceSet resourceSet= new org.eclipse.emf.ecore.resource.impl.ResourceSetImpl();&#xA;org.eclipse.emf.ecore.resource.Resource resource = resourceSet.createResource(uri);&#xA;try {&#xA;resource.load(java.util.Collections.EMPTY_MAP);&#xA;modelFactory = (ModelFactory) resource.getContents().get(0);&#xA;} catch (java.io.IOException e) {&#xA;// TO-DO Auto-generated catch block&#xA;e.printStackTrace();&#xA;}&#xA;&#xA;return modelFactory;&#xA;"/>
+      </eAnnotations>
+      <eParameters name="ruta" eType="#//String"/>
+    </eOperations>
+    <eOperations name="salvar">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="body" value="ModelFactory modelFactory = this;&#xA;org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI(&quot;platform:/resource/&quot;+ruta);&#xA;org.eclipse.emf.ecore.resource.ResourceSet resourceSet= new org.eclipse.emf.ecore.resource.impl.ResourceSetImpl();&#xA;org.eclipse.emf.ecore.resource.Resource resource = resourceSet.createResource(uri);&#xA;resource.getContents().add(modelFactory);&#xA;try {&#xA;resource.save(java.util.Collections.EMPTY_MAP);&#xA;} catch (java.io.IOException e) {&#xA;// TO-DO Auto-generated catch block&#xA;e.printStackTrace();&#xA;}&#xA;&#xA;return;&#xA;"/>
+      </eAnnotations>
+      <eParameters name="ruta" eType="#//String"/>
+    </eOperations>
+    <eOperations name="implementarModelo">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="body" value="//TODO implementarModelo&#xA;"/>
+      </eAnnotations>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="theDomain" eType="#//domain/Domain"
+        containment="true" eOpposite="#//domain/Domain/theModelFactory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="theUI" eType="#//ui/UI"
+        containment="true" eOpposite="#//ui/UI/theModelFactory"/>
+  </eClassifiers>
+  <eSubpackages name="domain" nsURI="http:///interrapidisimo/domain.ecore" nsPrefix="interrapidisimo.domain">
+    <eClassifiers xsi:type="ecore:EClass" name="Cliente">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="nombre" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="edad" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="telefono" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="direccion" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="email" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="tipoCliente" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstFactoryGestionHumana"
+          eType="#//domain/FactoryGestionHumana" eOpposite="#//domain/FactoryGestionHumana/lstCliente"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Domain">
+      <eOperations name="implementarModelo">
+        <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+          <details key="body" value="//TODO implementarModelo&#xA;"/>
+        </eAnnotations>
+      </eOperations>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="theModelFactory" eType="#//ModelFactory"
+          eOpposite="#//ModelFactory/theDomain"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownedByFactoryBodega"
+          eType="#//domain/FactoryBodega" containment="true" eOpposite="#//domain/FactoryBodega/lstDomain"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="theFactoryGestionHumana"
+          eType="#//domain/FactoryGestionHumana" containment="true" eOpposite="#//domain/FactoryGestionHumana/ownedByDomain"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstFactoryPago" upperBound="-1"
+          eType="#//domain/FactoryPago" containment="true" eOpposite="#//domain/FactoryPago/ownedByDomain"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="theUI" eType="#//ui/UI"
+          eOpposite="#//ui/UI/theDomain"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Empleado">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="nombre" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="telefono" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="email" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="tipoEmpleado" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="estadoEmpleado" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstFactoryGestionHumana"
+          eType="#//domain/FactoryGestionHumana" eOpposite="#//domain/FactoryGestionHumana/lstEmpleado"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="FactoryBodega">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstDomain" eType="#//domain/Domain"
+          eOpposite="#//domain/Domain/ownedByFactoryBodega"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstGuia" upperBound="-1"
+          eType="#//domain/Guia" containment="true" eOpposite="#//domain/Guia/lstFactoryBodega"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstPaquete" upperBound="-1"
+          eType="#//domain/Paquete" containment="true" eOpposite="#//domain/Paquete/lstFactoryBodega"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="FactoryGestionHumana">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstCliente" upperBound="-1"
+          eType="#//domain/Cliente" containment="true" eOpposite="#//domain/Cliente/lstFactoryGestionHumana"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstEmpleado" upperBound="-1"
+          eType="#//domain/Empleado" containment="true" eOpposite="#//domain/Empleado/lstFactoryGestionHumana"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownedByDomain" eType="#//domain/Domain"
+          eOpposite="#//domain/Domain/theFactoryGestionHumana"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstTransportador" upperBound="-1"
+          eType="#//domain/Transportador" containment="true" eOpposite="#//domain/Transportador/lstFactoryGestionHumana"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="FactoryPago">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownedByDomain" eType="#//domain/Domain"
+          eOpposite="#//domain/Domain/lstFactoryPago"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstFactura" upperBound="-1"
+          eType="#//domain/Factura" containment="true" eOpposite="#//domain/Factura/lstFactoryPago"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Factura">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="tipoPago" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="costo" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstFactoryPago" eType="#//domain/FactoryPago"
+          eOpposite="#//domain/FactoryPago/lstFactura"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Guia">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="destinatario" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="direccion" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="estado" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="fechaEstimada" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="remitente" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="tipoEntrega" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstFactoryBodega" eType="#//domain/FactoryBodega"
+          eOpposite="#//domain/FactoryBodega/lstGuia"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Paquete">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="medidas" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="estado" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="peso" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="fecha" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="descripcion" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstFactoryBodega" eType="#//domain/FactoryBodega"
+          eOpposite="#//domain/FactoryBodega/lstPaquete"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Transportador">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="nombre" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="telefono" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="email" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="estadoEmpleado" eType="#//String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="lstFactoryGestionHumana"
+          eType="#//domain/FactoryGestionHumana" eOpposite="#//domain/FactoryGestionHumana/lstTransportador"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="ui" nsURI="http:///interrapidisimo/ui.ecore" nsPrefix="interrapidisimo.ui">
+    <eClassifiers xsi:type="ecore:EClass" name="UI">
+      <eOperations name="implementarModelo">
+        <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+          <details key="body" value="//TODO implementarModelo&#xA;"/>
+        </eAnnotations>
+      </eOperations>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="theModelFactory" eType="#//ModelFactory"
+          eOpposite="#//ModelFactory/theUI"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="theDomain" eType="#//domain/Domain"
+          eOpposite="#//domain/Domain/theUI"/>
+    </eClassifiers>
+    <eSubpackages name="viewmodels" nsURI="http:///interrapidisimo/ui/viewmodels.ecore"
+        nsPrefix="interrapidisimo.ui.viewmodels"/>
+  </eSubpackages>
+</ecore:EPackage>

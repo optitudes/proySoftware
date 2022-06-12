@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated interrapidisimo -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="interrapidisimo.presentation.interrapidisimoModelWizardID"
+            name="%_UI_interrapidisimoModelWizard_label"
+            class="interrapidisimo.presentation.interrapidisimoModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/interrapidisimoModelFile.gif">
+         <description>%_UI_interrapidisimoModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated interrapidisimo -->
+      <editor
+            id="interrapidisimo.presentation.interrapidisimoEditorID"
+            name="%_UI_interrapidisimoEditor_label"
+            icon="icons/full/obj16/interrapidisimoModelFile.gif"
+            extensions="interrapidisimo"
+            class="interrapidisimo.presentation.interrapidisimoEditor"
+            contributorClass="interrapidisimo.presentation.interrapidisimoActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated interrapidisimo -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="interrapidisimo.domain.presentation.DomainModelWizardID"
+            name="%_UI_DomainModelWizard_label"
+            class="interrapidisimo.domain.presentation.DomainModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/DomainModelFile.gif">
+         <description>%_UI_DomainModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated interrapidisimo -->
+      <editor
+            id="interrapidisimo.domain.presentation.DomainEditorID"
+            name="%_UI_DomainEditor_label"
+            icon="icons/full/obj16/DomainModelFile.gif"
+            extensions="domain"
+            class="interrapidisimo.domain.presentation.DomainEditor"
+            contributorClass="interrapidisimo.domain.presentation.DomainActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated interrapidisimo -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="interrapidisimo.ui.presentation.UiModelWizardID"
+            name="%_UI_UiModelWizard_label"
+            class="interrapidisimo.ui.presentation.UiModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/UiModelFile.gif">
+         <description>%_UI_UiModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated interrapidisimo -->
+      <editor
+            id="interrapidisimo.ui.presentation.UiEditorID"
+            name="%_UI_UiEditor_label"
+            icon="icons/full/obj16/UiModelFile.gif"
+            extensions="ui"
+            class="interrapidisimo.ui.presentation.UiEditor"
+            contributorClass="interrapidisimo.ui.presentation.UiActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

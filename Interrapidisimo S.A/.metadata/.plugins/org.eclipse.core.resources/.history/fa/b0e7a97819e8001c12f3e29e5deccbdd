@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:tooldataform.core="http:///tooldataform/core.ecore" xmlns:tooldataform.pmoo="http:///tooldataform/pmoo.ecore" xsi:schemaLocation="http:///tooldataform/core.ecore http:///tooldataform.ecore#//core http:///tooldataform/pmoo.ecore http:///tooldataform.ecore#//pmoo">
+  <tooldataform.core:Datos_Diagram xmi:id="_R5OHgOgZEeyaBbdoE5pzeA">
+    <listClase xmi:type="tooldataform.pmoo:Clase" xmi:id="_dQQ4QOgZEeyaBbdoE5pzeA" name="FactoryBodega" id="_t8CugOgYEeyaBbdoE5pzeA" type="System" pathElementRoot="interrapidisimo.domain" typeElement="Class" urlIcon="platform:/plugin/tooldataform.datosdiagram/icons/Clase.gif" nameSpace="" nameSpaceElement=""/>
+  </tooldataform.core:Datos_Diagram>
+  <notation:Diagram xmi:id="_R6YlIOgZEeyaBbdoE5pzeA" type="MetamodelodataformDatosDiagram" element="_R5OHgOgZEeyaBbdoE5pzeA" name="newDiagram1" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_dQWX0OgZEeyaBbdoE5pzeA" type="2002" element="_dQQ4QOgZEeyaBbdoE5pzeA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_dQW-4OgZEeyaBbdoE5pzeA" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dQW-4egZEeyaBbdoE5pzeA" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_dQW-4ugZEeyaBbdoE5pzeA" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_dQW-4-gZEeyaBbdoE5pzeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_dQW-5OgZEeyaBbdoE5pzeA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_dQW-5egZEeyaBbdoE5pzeA" type="7002">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_dQW-5ugZEeyaBbdoE5pzeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_dQW-5-gZEeyaBbdoE5pzeA"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_dQWX0egZEeyaBbdoE5pzeA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_dQWX0ugZEeyaBbdoE5pzeA" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_dQWX0-gZEeyaBbdoE5pzeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dQWX1OgZEeyaBbdoE5pzeA" x="484" y="118"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_R6YlIegZEeyaBbdoE5pzeA"/>
+  </notation:Diagram>
+</xmi:XMI>
